@@ -2,13 +2,13 @@
   <div class="yhome">
     <div class="yhomey flex yhomeyshow">
       <div class="yhomey_one">
-        <p class="yhomey_two">{{ $store.state.txt.yhome }}</p>
-        <h1 class="yhomey_three">
+        <!-- <p class="yhomey_two">{{ $store.state.txt.yhome }}</p> -->
+        <h1 style="margin-bottom: 2rem" class="yhomey_three">
           {{ $store.state.txt.yhometitle }}
         </h1>
-        <p class="yhomey_four">
+        <!-- <p class="yhomey_four">
           {{ $store.state.txt.yhomecont }}
-        </p>
+        </p> -->
         <!-- <h1 class="yhomey_three">{{ $store.state.txt.yhometitlet }}</h1>
         <p class="yhomey_four">{{ $store.state.txt.yhomecontt }}</p> -->
         <div class="yhomey_inpbox flex">

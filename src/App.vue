@@ -80,6 +80,7 @@
               {{ $store.state.txt.tabStake }}</router-link
             >
             <router-link
+              style="display: none"
               :class="
                 $route.path == '/' ||
                 $route.path == '/launch' ||

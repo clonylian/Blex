@@ -2,16 +2,18 @@
   <div class="ysybox">
     <div class="ysybone flex">
       <div class="ysybyl">
-        <h2>We’re reinventing the global equity blockchian.</h2>
+        <h2>Decentralized modular liquid restaking protocol</h2>
         <p>
-          We offers users a fully operational long-term rental platform. It
-          plans to leverages blockchain technology to ensure seamless rental
-          experience and wants to help tenants unfreeze millions of dollars tied
-          up in rental deposits.
+          Harness EigenLayer yields through the first decentralised modular
+          liquid restaking protocol. Earn rewards without locking LSTs.
         </p>
         <div class="ysyas flex">
           <a href="" target="_blank">Whitepaper</a>
-          <a href="" target="_blank">Token Sale</a>
+          <router-link
+            :to="xhladdress == '' ? '/launch' : '/airdrop'"
+            target="_blank"
+            >Launch app</router-link
+          >
         </div>
       </div>
       <div class="ysybyr">
@@ -294,26 +296,30 @@
       </div>
     </div>
     <div class="ysybthree">
-      <h2>ABOUT COMPANY</h2>
+      <h2>What is RSTK?</h2>
       <div class="ysybthrb flex">
         <div class="ysybthrbl">
-          <h2>About The Company</h2>
+          <!-- <h2>
+            RSTK is the utility and governance token of the Restake Finance
+            ecosystem
+          </h2> -->
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.It plans to leverages blockchain technology to ensure
-            seamless rental experience and wants to help tenants unfreeze
-            millions of dollars.
+            Our core belief is that RSTK holders are important stakeholders of
+            the ecosystem, and the team’s interests will always align with the
+            holders. We will be maximizing utility and value accrual for holders
+            without diluting them away with unnecessary token inflation through
+            liquidity mining or vesting.
           </p>
           <p>
-            We offers users a fully operational long-term rental platform. It
-            plans to leverages blockchain technology to ensure seamless rental
-            experience and wants to help tenants unfreeze millions of dollars
-            tied up in rental tenants deposits.
+            RSTK holders will be able to govern the protocol, boost their
+            yields, and share the protocol’s revenue.
           </p>
-          <div class="ysyas flex">
-            <a href="" target="_blank"> Watch Video </a>
-          </div>
+          <p>
+            The main way to obtain RSTK is by participating in the token’s
+            liquidity generation event, or by buying it from Uniswap after
+            listing. Additional opportunities to earn RSTK will be announced by
+            the team
+          </p>
         </div>
         <div class="ysybthrbl ysybthrblimg">
           <img src="../assets/about.png" alt="" />
@@ -321,71 +327,85 @@
       </div>
     </div>
     <div class="ysybfour">
-      <h2>Why Choose Us</h2>
+      <h2>How it works?</h2>
       <div class="ysybfb flex">
         <div class="ysybfbc">
           <div class="process_num">
             <h4>1</h4>
           </div>
-          <h3>Wallet</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
-          </p>
+          <h3>Deposit</h3>
+          <p>Deposit LST (stETH) into Restake Finance (RSTK)</p>
         </div>
         <div class="ysybfbc">
           <div class="process_num">
             <h4>2</h4>
           </div>
-          <h3>Safe & Secure</h3>
+          <h3>Earn Yield</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
+            Begin earning rewards in real-time based on customized opt-in
+            modules in RSTK. Hold rTokens to receive EigenLayer interest (APY
+            10%+). Allow users to earn yield without fully locking their LST.
           </p>
         </div>
         <div class="ysybfbc">
           <div class="process_num">
             <h4>3</h4>
           </div>
-          <h3>Buy & Sell</h3>
+          <h3>Receive rTokens</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
+            Receive liquid rTokens and participate in the EigenLayer
+            decentralised trust and security mechanism through RSTK. Continue
+            receiving Ethereum native staking rewards through the rToken rebase
+            mechanism
           </p>
         </div>
         <div class="ysybfbc">
           <div class="process_num">
             <h4>4</h4>
           </div>
-          <h3>Flexibility</h3>
+          <h3>Use in DeFi</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
+            Use rTokens as a building block across DeFi protocols to compound
+            your yield (e.g. as collateral in lending)
           </p>
         </div>
       </div>
     </div>
     <div class="ysybqi">
-      <h2>MVP</h2>
+      <h2>
+        The Natural Evolution of <br />
+        Yield Optimization.
+      </h2>
       <div class="ysybqbox flex">
         <div class="ysybqbl">
-          <h2>We’re reinventing the global equity blockchian</h2>
+          <!-- <h2>We’re reinventing the global equity blockchian</h2>
           <h4>
             Automatic matching of buyers & sellers via unique artificial
             intelligence approach.
-          </h4>
+          </h4> -->
+          <div class="ysybfiveboxlis flex">
+            <span class="ti-check"></span>
+            <p>Accrue Ethereum and EigenLayer native yield without a lock-up</p>
+          </div>
           <div class="ysybfiveboxlis flex">
             <span class="ti-check"></span>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form.
+              Boost your ETH yield through EL native modules. Estimated total
+              yield 15% APY(ETH + EL rewards)
             </p>
           </div>
           <div class="ysybfiveboxlis flex">
             <span class="ti-check"></span>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form.
+              Restake Finance is a non-custodial restaking platform. Your keys,
+              your tokens.
+            </p>
+          </div>
+          <div class="ysybfiveboxlis flex">
+            <span class="ti-check"></span>
+            <p>
+              rTokens will integrate in DeFi and allow users to leverage their
+              yield
             </p>
           </div>
         </div>
@@ -468,55 +488,131 @@
           :class="tablis == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
         >
           <div @click="changetab('1')" class="ysybtenbct flex jus">
-            <h2>What is cryptocurrency?</h2>
+            <h2>What is restaking through EigenLayer?</h2>
             <img
               src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
               alt=""
             />
           </div>
           <div class="ysybtenbcttxt">
-            Cryptocurrency refers to a digital or virtual currency that uses
-            cryptography to secure and verify transactions as well as to control
-            the creation of new units. Cryptocurrencies operate independently of
-            a central bank and are decentralized, meaning they are not
-            controlled by any government or financial institution.
+            EigenLayer is a protocol built on Ethereum that introduces
+            restaking, a new primitive in pooled cryptoeconomic security
           </div>
         </div>
         <div
           :class="tablist == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
         >
           <div @click="changetabt('1')" class="ysybtenbct flex jus">
-            <h2>What is the refund policy?</h2>
+            <h2>What is Restake Finance?</h2>
             <img
               src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
               alt=""
             />
           </div>
           <div class="ysybtenbcttxt">
-            Most reputable companies and organizations will have a clear and
-            transparent refund policy that outlines the circumstances under
-            which refunds are offered, the time frame in which refunds can be
-            requested, and any applicable fees or restrictions. If you have any
-            questions about a refund policy or need to request a refund, it's
-            best to contact the company or organization directly for assistance.
+            Restake Finance is the first protocol launching modular liquid
+            restaking for EigenLayer.
           </div>
         </div>
         <div
           :class="tablisf == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
         >
           <div @click="changetabf('1')" class="ysybtenbct flex jus">
-            <h2>How to buy cryptocurrency?</h2>
+            <h2>What are rTokens?</h2>
             <img
               src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
               alt=""
             />
           </div>
           <div class="ysybtenbcttxt">
-            Cryptocurrency refers to a digital or virtual currency that uses
-            cryptography to secure and verify transactions as well as to control
-            the creation of new units. Cryptocurrencies operate independently of
-            a central bank and are decentralized, meaning they are not
-            controlled by any government or financial institution.
+            rTokens are tokenised version of LSTs. They are rebasing, yield
+            bearing tokens that allow holders to earn EigenLayer native rewards.
+          </div>
+        </div>
+        <div
+          :class="tablisw == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
+        >
+          <div @click="changetabw('1')" class="ysybtenbct flex jus">
+            <h2>How high can I expect yields to be?</h2>
+            <img
+              src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+          <div class="ysybtenbcttxt">
+            Holding rTokens guarantees seamlessly earning Ethereum’s staking
+            rewards (estimated to vary between 3%-5%) and also EigenLayer
+            rewards on top (estimated at 10%+).
+          </div>
+        </div>
+        <div
+          :class="tabliss == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
+        >
+          <div @click="changetabs('1')" class="ysybtenbct flex jus">
+            <h2>How can I claim yields?</h2>
+            <img
+              src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+          <div class="ysybtenbcttxt">
+            Your address’ yield will be calculated by Restake Finance and will
+            be claimable through the dApp. Yield will accrue over time and
+            anyone will be able to claim their specific yield anytime through
+            the smart contract.
+          </div>
+        </div>
+        <div
+          :class="tablisq == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
+        >
+          <div @click="changetabq('1')" class="ysybtenbct flex jus">
+            <h2>Advantages of using rTokens</h2>
+            <img
+              src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+          <div class="ysybtenbcttxt">
+            Users can liquid restake their LSTs in EigenLayer through the
+            introduction of our restaked ETH tokens (rTokens). rTokens will be
+            fully liquid, tradeable on DEXs and will be integrated in DeFi
+            protocols.
+          </div>
+        </div>
+        <div
+          :class="tablisb == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
+        >
+          <div @click="changetabb('1')" class="ysybtenbct flex jus">
+            <h2>What is RSTK?</h2>
+            <img
+              src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+          <div class="ysybtenbcttxt">
+            RSTK allows for the rehypothecation of yield in such a way that
+            users continue earning Ethereum native interest and secure other
+            actively validated systems while earning additional risk-adjusted
+            yield powered by EigenLayer.
+          </div>
+        </div>
+        <div
+          :class="tablisn == '1' ? 'ysybtenbcon ysybtenbconh' : 'ysybtenbcon'"
+        >
+          <div @click="changetabn('1')" class="ysybtenbct flex jus">
+            <h2>
+              Will Restake Finance users benefit from a potential EigenLayer
+              airdrop?
+            </h2>
+            <img
+              src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"
+              alt=""
+            />
+          </div>
+          <div class="ysybtenbcttxt">
+            Should we receive an airdrop of EigenLayer tokens on behalf of our
+            users, the entirety of tokens will be distributed to the users as
+            per their contributions.
           </div>
         </div>
       </div>
@@ -750,7 +846,29 @@ export default {
       tablis: "1",
       tablist: "0",
       tablisf: "0",
+      tablisw: "0",
+      tabliss: "0",
+      tablisq: "0",
+      tablisb: "0",
+      tablisn: "0",
+      xhladdress: "",
+      xxhladdress: "",
+      xethbalance: "",
     };
+  },
+  mounted() {
+    if (localStorage.getItem("xhladd")) {
+      this.xhladdress = localStorage.getItem("xhladd");
+      this.xxhladdress =
+        localStorage.getItem("xhladd").substring(0, 4) +
+        "..." +
+        localStorage
+          .getItem("xhladd")
+          .substring(
+            localStorage.getItem("xhladd").length - 4,
+            localStorage.getItem("xhladd").length
+          );
+    }
   },
   methods: {
     onMouseDown(event) {
@@ -793,6 +911,41 @@ export default {
         this.tablisf = "0";
       } else {
         this.tablisf = "1";
+      }
+    },
+    changetabw(str) {
+      if (str == this.tablisw) {
+        this.tablisw = "0";
+      } else {
+        this.tablisw = "1";
+      }
+    },
+    changetabs(str) {
+      if (str == this.tabliss) {
+        this.tabliss = "0";
+      } else {
+        this.tabliss = "1";
+      }
+    },
+    changetabq(str) {
+      if (str == this.tablisq) {
+        this.tablisq = "0";
+      } else {
+        this.tablisq = "1";
+      }
+    },
+    changetabb(str) {
+      if (str == this.tablisb) {
+        this.tablisb = "0";
+      } else {
+        this.tablisb = "1";
+      }
+    },
+    changetabn(str) {
+      if (str == this.tablisn) {
+        this.tablisn = "0";
+      } else {
+        this.tablisn = "1";
       }
     },
   },
@@ -1141,7 +1294,6 @@ export default {
 }
 .ysybfb {
   text-align: center;
-  align-items: center;
 }
 .ysybfbc {
   width: 25%;
@@ -1246,7 +1398,8 @@ export default {
 }
 .ysybfiveboxlis {
   column-gap: 0.9375rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2.875rem;
+  align-items: center;
 }
 .ti-cup {
   font-family: "themify";

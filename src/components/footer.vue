@@ -2,7 +2,7 @@
   <div class="ynewfoot">
     <div class="ynfootbox flex jus">
       <div class="ynfootbl flex">
-        <span>@2023 NAVl. All rights reserved.</span>
+        <span>@2023 Blex. All rights reserved.</span>
         <div class="ynfootblrou flex">
           <router-link to="/terms" target="_blank"
             >Terms of Service</router-link
