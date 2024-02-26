@@ -1,0 +1,39 @@
+{
+  "name": "eventer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@web3-onboard/injected-wallets": "^2.10.11",
+    "@web3-onboard/vue": "^2.7.12",
+    "apexcharts": "^3.44.0",
+    "axios": "^1.6.0",
+    "blueimp-md5": "^2.19.0",
+    "buffer": "^6.0.3",
+    "ethers": "5.7.2",
+    "hellojs": "1.19.5",
+    "mitt": "^3.0.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.0.3",
+    "vue3-apexcharts": "^1.4.4",
+    "vuex": "^4.0.0",
+    "web3": "^4.4.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
